@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cutcovv"
+    tools:context="com.example.six11.bookafade.MainActivity">
+
+    <Button
+        android:id="@+id/bookbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:text="Book Now!"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CutsByCorrie"
+        android:textColor="#ffffffff"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make booking easier..."
+        android:textColor="#ffffffff"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/bookbtn"
+        android:layout_centerHorizontal="true"/>
+
+    <Space
+        android:id="@+id/sp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/cuts_logo"
+        android:layout_above="@+id/textView"
+        android:layout_below="@id/sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="34dp"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock"/>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/floatingActionButton"
+        android:layout_alignLeft="@+id/floatingActionButton"
+        android:layout_alignStart="@+id/floatingActionButton"
+        android:text="Barber"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"/>
+</RelativeLayout>

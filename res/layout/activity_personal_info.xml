@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cutcov_two"
+    tools:context="com.example.six11.bookafade.PersonalInfoActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Who Are We Cutting"
+        android:textColor="#bb2a83"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:orientation="vertical"
+        android:paddingLeft="8px"
+        android:paddingRight="8px"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/editText"
+            style="@android:style/Widget.DeviceDefault.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="John Doe"
+            android:inputType="textPersonName"
+            android:paddingLeft="8px"
+            android:textColor="#ffffffff"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="example@example.com"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffffff"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="111-111-1111"
+            android:inputType="phone"
+            android:textColor="#ffffffff"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/piBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_purple"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"/>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="*We use this information so that your barber can identify and contact you*"
+        android:textColor="#ffffffff"/>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/piBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="*Dont Skip*"
+        android:textColor="#ffffffff"/>
+</RelativeLayout>

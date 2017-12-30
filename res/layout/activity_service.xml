@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cutcov_two"
+    tools:context="com.example.six11.bookafade.ServiceActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="CutsByCorrie"
+                android:textColor="#bb2a83"
+                android:textSize="36sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="*Pick the service(s) you want to schedule*"
+                android:textColor="#ffffffff"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cbox1"
+                style="@android:style/Widget.CompoundButton.CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shape Up - $10.00"
+                android:textColor="#ffffffff"
+                android:textColorLink="@android:color/holo_blue_dark"
+                android:textSize="20dp"/>
+
+            <CheckBox
+                android:id="@+id/cbox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuts - $15.00"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"/>
+
+            <CheckBox
+                android:id="@+id/cbox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fade - $15.00"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"/>
+
+            <CheckBox
+                android:id="@+id/cbox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shave - $8.00"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"/>
+
+            <CheckBox
+                android:id="@+id/cbox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trim - $5.00"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/selectionConfirm"
+                android:layout_width="148dp"
+                android:layout_height="159dp"
+                android:layout_gravity="center"
+                android:background="@android:color/holo_purple"
+                android:clickable="true"
+                android:foregroundGravity="bottom"
+                android:padding="30dp"
+                android:paddingBottom="10dp"
+                android:scaleType="fitXY"
+                app:backgroundTint="@android:color/holo_purple"
+                app:elevation="10dp"
+                app:fabSize="normal"
+                app:rippleColor="#901eac"
+                app:srcCompat="@android:drawable/ic_menu_send"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tell Us When"
+                android:textColor="#7617c8"
+                android:textSize="46sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Total"
+                android:textColor="#ffffffff"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/priceView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="$0.00"
+                android:textColor="#ffffffff"
+                android:textSize="46sp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="*you wont be paying this amount right away. On the next page youll schedule an appointment, well check its availability. Then you pay*"
+                android:textAlignment="center"
+                android:textColor="#ffffffff"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

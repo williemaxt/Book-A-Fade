@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cutcov_two"
+    tools:context="com.example.six11.bookafade.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="CutsByCorrie"
+            android:textAlignment="center"
+            android:textColor="#bb2a83"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-1dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bnBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="*All haircuts are $30 excluding hairwashing. Pick the right service that best fits your needs *"
+            android:textAlignment="center"
+            android:textColor="#ffffffff"/>
+
+        <Button
+            android:id="@+id/bnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:text="Book An Appointment"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1.89"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/mapim"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="13"
+                android:text="this is just a random text to test the capabilities of the linear layout"
+                android:textColor="#ffffffff"/>
+
+            <Button
+                android:id="@+id/book1Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Book!"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="13"
+                android:text="this is just a random text to test the capabilities of the linear layout"
+                android:textColor="#ffffffff"/>
+
+            <Button
+                android:id="@+id/book2Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Book!"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="13"
+                android:text="this is just a random text to test the capabilities of the linear layout"
+                android:textColor="#ffffffff"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Book!"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="13"
+                android:text="this is just a random text to test the capabilities of the linear layout"
+                android:textColor="#ffffffff"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Book!"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="13"
+                android:text="this is just a random text to test the capabilities of the linear layout"
+                android:textColor="#ffffffff"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Book!"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

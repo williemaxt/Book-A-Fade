@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cutcov_two"
+    tools:context="com.example.six11.bookafade.TimeActivity">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="90dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="CutsByCorrie"
+        android:textColor="#bb2a83"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="*Pick your time*"
+        android:textColor="#ffffffff"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/nextServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_purple"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_menu_send"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextServices"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_alignRight="@+id/textView13"
+        android:layout_marginBottom="12dp"
+        android:text="*Choose the way you want to pay*"
+        android:textColor="#ffffffff"/>
+</RelativeLayout>

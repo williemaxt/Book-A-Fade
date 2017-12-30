@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cutcov_two"
+    tools:context="com.example.six11.bookafade.SchedulingActivity">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:text="Choose A Day"
+        android:textAlignment="center"
+        android:textColor="#bb2a83"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/nextBtnCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_purple"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_menu_send"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextBtnCalender"
+        android:layout_centerHorizontal="true"
+        android:text="Next"
+        android:textColor="#ffffffff"/>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/datePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="*Apart from the haircut, there's the all-important day. Make sure you choose the right one*"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"/>
+</RelativeLayout>

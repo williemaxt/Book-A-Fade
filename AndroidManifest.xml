@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.six11.bookafade">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cuts_l"
+        android:label="CutsByCorrie"
+        android:roundIcon="@mipmap/cuts_l"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity">
+        </activity>
+        <activity android:name=".ServiceActivity">
+        </activity>
+        <activity android:name=".SchedulingActivity">
+        </activity>
+        <activity android:name=".TimeActivity">
+        </activity>
+        <activity android:name=".PayActivity">
+        </activity>
+        <activity android:name=".PersonalInfoActivity">
+        </activity>
+        <activity android:name=".VerificationActivity">
+        </activity>
+        <activity android:name=".BarberActivity">
+        </activity>
+    </application>
+
+</manifest>
